@@ -1,0 +1,144 @@
+*{
+    margin-left: 0;
+    margin-top: 0;
+}
+.offerings{
+    background-image: linear-gradient(to right, red, green, rgb(0, 128, 0), yellow);
+    height: 30px;
+}
+.offerings p{
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+    text-decoration: underline;
+}
+.lists{
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: rgb(190, 247, 255)
+}
+.lists ul{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.lorem{
+    border: 2px solid green;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-color: rgb(72, 245, 187);
+    border-bottom: 3px solid black;
+}
+.box{
+    width: 32%;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.our{
+    background-image: linear-gradient(to right, red,yellow,yellow,red);
+}
+.our p{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.list2{
+    border: 3px solid darkgreen;
+    margin: auto;
+    background-image: radial-gradient(blue, rgb(0, 250, 0));
+    display: flex;
+    justify-content: space-around;
+}
+.boxes{
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(227, 227, 63);
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(186, 23, 23);
+    font-weight: bolder;
+    font-size: medium;
+}
+.best{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    gap: 10px;
+    margin-top: 10px;
+}
+.the{
+    grid-column: 1/15;
+    grid-row: 1/2;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.box1{
+    grid-column: 1/5;
+    grid-row: 2/4;
+    text-align: center;
+    background-color: rgb(10, 182, 102);
+    color: white;
+    font-weight: bolder;
+}
+.box2{
+    grid-column: 5/10;
+    grid-row: 2/4;
+    text-align: left;
+    background-color: rgb(81, 132, 195);
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.box3{
+    grid-column: 10/14;
+    grid-row: 2/4;
+    text-align: left;
+    background-color: rgb(63, 27, 169);
+    color: white;
+    font-weight: bolder;
+}
+.box4{
+    grid-column: 14/14;
+    grid-row: 2/8;
+    text-align: left;
+    background-color: black;
+    color: white;
+    justify-content: ;
+    font-weight: bolder;
+    line-height: 0.5;
+}
+.box5{
+    grid-column: 1/14;
+    grid-row: 4/8;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0px;
+    margin: auto;
+}
+.all{
+    grid-column: 1/15;
+    grid-row: 8/9;
+    text-align: center;
+    background-color: aqua;
+    font-weight: bolder;
+    font-size: larger;
+}
